@@ -1,0 +1,15 @@
+###get list from sercer
+
+GET http://localhost:8000/api/v1/task
+
+###post listfrom server
+POST http://localhost:8000/api/v1/task
+# header of the request
+Content-Type: application/json
+
+
+# bpdy pf the request, there shoukd be gap between header and body part
+{
+"task":"coding",
+"hr": 40
+}
