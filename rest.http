@@ -10,6 +10,30 @@ Content-Type: application/json
 
 # bpdy pf the request, there shoukd be gap between header and body part
 {
-"task":"coding",
-"hr": 40
+"task":"game  ",
+"hr": 40,
+"type":"entry"
 }
+###update data
+PATCH  http://localhost:8000/api/v1/task
+# header of the request
+Content-Type: application/json
+
+
+# bpdy pf the request, there shoukd be gap between header and body part
+{
+  "id":"",
+  "type":"bad"
+} 
+
+###delete data
+DELETE http://localhost:8000/api/v1/task
+# header of the request
+Content-Type: application/json
+
+# bpdy pf the request, there shoukd be gap between header and body part
+{
+  "id":"nhs2I3"
+  
+}
+
